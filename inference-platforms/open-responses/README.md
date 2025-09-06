@@ -13,7 +13,7 @@ Start Ollama and your OpenTelemetry Collector via this repository's [README](../
 ## Run OpenResponses
 
 ```bash
-docker compose --env-file ./env.local up --pull always --force-recreate --remove-orphans 
+docker compose up --pull always --force-recreate --remove-orphans
 ```
 
 Clean up when finished, like this:
